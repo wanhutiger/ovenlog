@@ -1,5 +1,8 @@
 # OVENLOG
 
+**Live app:** https://wanhutiger.github.io/ovenlog/
+**Source:** https://github.com/wanhutiger/ovenlog
+
 OVENLOG is a permanent maker log built on Cookie Chain. A creator connects Nightly, writes what they are building, and publishes the entry as a transparent Memo transaction. The resulting CookieScan URL is a durable, shareable receipt.
 
 ## Why this cApp

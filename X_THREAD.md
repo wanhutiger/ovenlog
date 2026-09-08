@@ -58,8 +58,8 @@ Just a small public-good primitive for builders who want to say: “I was here. 
 
 OVENLOG is open source and built specifically for the Cookie Chain cApp challenge.
 
-Try it: [LIVE_URL]
-Code: [GITHUB_URL]
+Try it: https://wanhutiger.github.io/ovenlog/
+Code: https://github.com/wanhutiger/ovenlog
 Bridge COOK: https://hyperlane.cookiescan.io
 
 What are you cooking next? 🍪

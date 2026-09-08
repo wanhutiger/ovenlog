@@ -8,8 +8,8 @@ OVENLOG is a permanent maker log for Cookie Chain. Creators timestamp a project,
 
 ## Submission links
 
-- Live application: `[add after deployment]`
-- GitHub repository: `[add after repository publish]`
+- Live application: https://wanhutiger.github.io/ovenlog/
+- GitHub repository: https://github.com/wanhutiger/ovenlog
 - X demo thread: `[add after publishing]`
 - Application/program address: canonical Memo program `MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr`
 - Example transaction: `[add after the first funded Nightly test]`
