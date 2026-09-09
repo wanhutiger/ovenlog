@@ -44,8 +44,14 @@ Competing submissions are primarily trading terminals, dashboards, and games. OV
 
 - Production build completes successfully.
 - Cookie Chain live metrics load from the official RPC.
-- Desktop and 390px mobile layouts have been visually checked.
-- Mobile page width equals viewport width; no horizontal overflow remains.
+- Responsive layout verified programmatically at 320, 360, 390, 414, 768, 1024
+  and 1440 px: `document.scrollWidth` equals the viewport width at every step and
+  no element extends past the right edge. Reproduce with
+  `python3 tools/viewport-check.py`.
+- Note on methodology: Chrome's `--window-size` does not set the viewport, so
+  screenshots taken that way render around 500px and are then scaled into the
+  image, which makes a correct layout look clipped. The check above drives
+  `Emulation.setDeviceMetricsOverride` over the DevTools protocol instead.
 - Category and note changes update the receipt in real time.
 - Final Nightly signature/confirmation test requires an installed Nightly wallet funded with a small amount of COOK.
 
